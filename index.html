@@ -33,11 +33,23 @@
           alert("Password must be at least 6 characters long.");  
           return false;  
           }  
-          else if(password == strongRegex){  
+         /* else if(password != strongRegex){  
           alert("Password must  contain an uppercase letter, symbol, lowercase letters, and numbers  ");  
           return false; 
            
-        } 
+        } */
+        else if (password.search(/[a-z]/) < 1 ) {
+    alert("Your password needs a lower case letter")
+    return false;
+}
+else if (password.search(/[A-Z]/) < 1) {
+    alert("Your password needs an uppser case letter")
+    return false;
+}else if (password.search(/[0-9]/) < 1) {
+    alert("Your password needs an nu case letter")
+    return false;
+}
+
         else if(password != pass2) {
             alert("please try validate the password ");  
           return false; 
