@@ -84,7 +84,8 @@ else if (password.search(/[A-Z]/) < 1) {
     padding-left: 10%;
     padding-right: 10%;
     background: #7e7e7e;
-    height: 40%;}
+    height: 40%;
+  align-content: center;}
 		body{
 		padding:10% 3% 10% 3%;
 		text-align:center;
@@ -93,6 +94,9 @@ else if (password.search(/[A-Z]/) < 1) {
 			height:140px;
 				width:140px;
 		}
+    input{
+      align-content: center;
+    }
 		h1{
 		color: #32a852;
 		}
@@ -129,23 +133,7 @@ else if (password.search(/[A-Z]/) < 1) {
                 <span>Full Name</span>
     
             </div>
-            <div class="inputBox">
-                <input type="email" name="Email" required="required">
-                <span>Email</span>
-    
-            </div>
-            <div class="inputBox">
-               <input type="password" name="password" required="required">
-               <span>password</span>
-               
-               
-           </div>
-           <div class="inputBox">
-            <input type="password" name="password2" required="required">
-            <span>password validate</span>
             
-            
-        </div>
         <div class="inputBox">
             <input type="number" name="age" required="required">
             <span>Age</span>
@@ -164,6 +152,23 @@ else if (password.search(/[A-Z]/) < 1) {
             
             
         </div>
+        <div class="inputBox">
+          <input type="email" name="Email" required="required">
+          <span>Email</span>
+
+      </div>
+      <div class="inputBox">
+         <input type="password" name="password" required="required">
+         <span>password</span>
+         
+         
+     </div>
+     <div class="inputBox">
+      <input type="password" name="password2" required="required">
+      <span>password validate</span>
+      
+      
+  </div>
            <div class="inputBox">
             <textarea name ="Message"required></textarea>
             <span>Type your Message...</span>
