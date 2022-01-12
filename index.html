@@ -45,8 +45,7 @@
 else if (password.search(/[A-Z]/) < 1) {
     alert("Your password needs an uppser case letter")
     return false;
-}else if (password.search(/[0-9]/) < 1) {
-    
+
     
 }
 
@@ -133,7 +132,23 @@ else if (password.search(/[A-Z]/) < 1) {
                 <span>Full Name</span>
     
             </div>
-            
+            <div class="inputBox">
+              <input type="email" name="Email" required="required">
+              <span>Email</span>
+    
+          </div>
+          <div class="inputBox">
+             <input type="password" name="password" required="required">
+             <span>password</span>
+             
+             
+         </div>
+         <div class="inputBox">
+          <input type="password" name="password2" required="required">
+          <span>password validate</span>
+          
+          
+      </div>    
         <div class="inputBox">
             <input type="number" name="age" required="required">
             <span>Age</span>
@@ -152,23 +167,7 @@ else if (password.search(/[A-Z]/) < 1) {
             
             
         </div>
-        <div class="inputBox">
-          <input type="email" name="Email" required="required">
-          <span>Email</span>
-
-      </div>
-      <div class="inputBox">
-         <input type="password" name="password" required="required">
-         <span>password</span>
-         
-         
-     </div>
-     <div class="inputBox">
-      <input type="password" name="password2" required="required">
-      <span>password validate</span>
-      
-      
-  </div>
+        
            <div class="inputBox">
             <textarea name ="Message"required></textarea>
             <span>Type your Message...</span>
